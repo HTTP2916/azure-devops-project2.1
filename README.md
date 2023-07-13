@@ -107,7 +107,7 @@ View the app logs:
 
 To view the log in Cloud Shell
 ```
-az webapp log tail -g Azuredevops -n azure-devops-project2-khuongph
+az webapp log tail -g Azuredevops -n azure-devops-project2-phunghtt
 ```
 ![screenshot-log-webapp](https://github.com/phkhuong2/azure-devops-project2.1/blob/main/screenshots/log_trail.png)
 
@@ -125,7 +125,7 @@ pip install locust
 
 Start load test:
 ```
-locust -f locustfile.py --host https://azure-devops-project2-khuongph.azurewebsites.net/ --users 500 --spawn-rate 5 
+locust -f locustfile.py --host https://azure-devops-project2-phunghtt.azurewebsites.net/ --users 500 --spawn-rate 5 
 ```
 Open a browser and go to [http://localhost:8089](http://localhost:8089) then click Start Swarming:
 

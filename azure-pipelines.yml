@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: '27e8ccef-3336-4226-976e-50ebfdb811bf'
 
   # Web app name
-  webAppName: 'azure-devops-project2-khuongph'
+  webAppName: 'azure-devops-project2-phunghtt'
 
   poolName: 'khuongPool'
   # Agent VM image name
@@ -83,7 +83,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : azure-devops-project2-khuongph'
+            displayName: 'Deploy Azure Web App : azure-devops-project2-phunghtt'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
