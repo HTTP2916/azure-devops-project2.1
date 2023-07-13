@@ -8,17 +8,17 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '27e8ccef-3336-4226-976e-50ebfdb811bf'
+  azureServiceConnectionId: '35eadb9b-6e28-40a3-8fdc-9ef3fabce609'
 
   # Web app name
   webAppName: 'azure-devops-project2-phunghtt'
 
-  poolName: 'khuongPool'
+  poolName: 'phungPool'
   # Agent VM image name
-  vmImageName: 'khuongVM'
+  vmImageName: 'phungVM'
 
   # Environment name
-  environmentName: 'khuongEnv'
+  environmentName: 'phungEnv'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
