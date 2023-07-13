@@ -6,9 +6,7 @@ This project consists of a flask application that is developed to predict housin
 
 This repository demonstrates:
 - Deploying the app in Azure CloudShell
-- Deploying the app as a web server using Azure App Service.
-
-If anything changed in its repository, it will trigger the Github Action and Azure DevOps Pipelines to perform the CICD process and finally deploy to my app service.
+- Deploying the app as a web server using Azure Pipeline enables Continuous Delivery to Azure App Service.
 
 ## Badge
 
@@ -142,4 +140,4 @@ Open a browser and go to [http://localhost:8089](http://localhost:8089) then cli
 
 ## Demo 
 Demo Video on Youtube 
-link
+https://www.youtube.com/watch?v=6XaAoDGuzVI
