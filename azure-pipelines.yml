@@ -83,7 +83,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : htt'azure-devops-project2-phung
+            displayName: 'Deploy Azure Web App : azure-devops-project2-phunghtt'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
